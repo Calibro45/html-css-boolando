@@ -22,6 +22,7 @@ main {
 .card {
     width: 480px;
     height: 770px;
+    margin: 10px;
     display: inline-block;
 }
 
