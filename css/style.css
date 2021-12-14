@@ -12,7 +12,9 @@ body {
 }
 
 main {
-    padding: 50px 100px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
 }
 
 /* prima riga prodotti Abbigliamento */
@@ -49,3 +51,25 @@ main {
     right: 0;
 }
 
+/* Desc. sales */
+
+.sale {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;  
+}
+
+.discount, .eco {
+    padding: 5px;
+}
+
+.discount {
+    background-color: #eb0037;
+}
+
+.eco {
+    background-color: #00875a;
+}
