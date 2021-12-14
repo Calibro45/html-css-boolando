@@ -29,12 +29,17 @@ main {
     width: 480px;
     height: 690px;
     position: relative;
+    z-index: 1;
 }
 
 .card-bottom {
     width: 480px;
     height: 80px;
     margin-top: 10px;
+}
+
+.card-top, .heart, .sale {
+    z-index: 1;
 }
 
 /* symbol heart */
@@ -92,5 +97,18 @@ main {
 
 .price.bar {
     text-decoration: line-through;
-   
 }
+
+/* immagine lato B hover */
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.card:hover .img-a{
+    visibility: hidden;
+}
+
