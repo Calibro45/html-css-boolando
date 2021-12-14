@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+main {
+    padding: 50px 100px;
+}
+
+/* prima riga prodotti Abbigliamento */
+
+.card {
+    width: 480px;
+    height: 770px;
+    display: inline-block;
+}
+
+.card-top {
+    width: 480px;
+    height: 690px;
+}
+
+.card-bottom {
+    width: 480px;
+    height: 80px;
+}
